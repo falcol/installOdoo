@@ -24,3 +24,5 @@ sudo chown -R username:username addons
 host: postgresql  
 username: odoo  
 password: myodoo  
+
+## Add new in modules folder
