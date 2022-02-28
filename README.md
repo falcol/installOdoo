@@ -14,7 +14,8 @@ docker-compose up -d
 docker exec -it ID_CONTAINER_POSTGRES psql -U odoo -W postgres
 ```
 
-# pass key
+# pass permisson deny
+## username is your computer name
 ```bash
 sudo chown -R username:username addons
 ```
