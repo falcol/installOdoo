@@ -14,6 +14,11 @@ docker-compose up -d
 docker exec -it ID_CONTAINER_POSTGRES psql -U odoo -W postgres
 ```
 
+# pass key
+```bash
+sudo chown -R username:username addons
+```
+
 ## Connect with pgadmin4  
 host: postgresql  
 username: odoo  
